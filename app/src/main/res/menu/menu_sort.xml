@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_menu_item"
+        android:icon="@drawable/ic_sort"
+        android:title="Sort"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/sortCostLowToHigh"
+                android:title=" Cost: Low to High"/>
+
+            <item
+                android:id="@+id/sortCostHighToLow"
+                android:title=" Cost: High to Low"/>
+
+            <item
+                android:id="@+id/sortRatingLowToHigh"
+                android:title="Rating: High to Low"/>
+
+            <item
+                android:id="@+id/sortRatingHighToLow"
+                android:title="Rating: Low to High"/>
+        </menu>
+
+    </item>
+
+</menu>

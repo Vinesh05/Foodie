@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgRestaurant" type="id" />
+    <item name="txtResName" type="id" />
+    <item name="txtRs" type="id" />
+    <item name="txtResPrice" type="id" />
+</resources>

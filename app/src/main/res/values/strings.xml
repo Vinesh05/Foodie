@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preferences_file_name">Foodie Preferences</string>
+
+    <string name="faq1"> 1.Is this app really a food ordering app?</string>
+    <string name="faqa1">No, this app is not a real food ordering app. This App is made by Vinesh during Internshala Appathon as a Final Project.</string>
+    <string name="faq2">2.How was the Training by Internshala?</string>
+    <string name="faqa2">It was Amazing. The concepts were hard but they explained it very nicely. The person who has the passion in Android App Development will definitely learn a lot of things from this training.</string>
+    <string name="faq3">3.Where can I find the training?</string>
+    <string name="faqa3">It’s on the Internshala website in Online trainings Section.\n Here is the link:<a href="https://trainings.internshala.com/">Internshala trainings</a></string>
+    <string name="faq4">4.Where can I find the source code of this App?</string>
+    <string name="faqa4">Here is the Github Repository:\n<a href="https://github.com/Vinesh05/FoodieAppProject">Github Repo</a></string>
+
+</resources>

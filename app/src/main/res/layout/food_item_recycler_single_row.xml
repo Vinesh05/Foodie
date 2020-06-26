@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="4"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/txtFoodItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs."
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/txtFoodItemCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="240"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginVertical="10dp">
+
+        <ImageView
+            android:id="@+id/imgAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_add"/>
+
+        <ImageView
+            android:id="@+id/imgRemove"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_cross"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

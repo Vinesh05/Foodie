@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faq1"
+                    android:textSize="23sp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faqa1"
+                    android:textSize="23sp"
+                    android:textColor="@color/colorAccent"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/colorAccent"
+                    android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faq2"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faqa2"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorAccent"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faq3"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtFaqA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faqa3"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorAccent"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faq4"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtFaqA4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/faqa4"
+                android:textSize="23sp"
+                android:textColor="@color/colorAccent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorAccent"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
