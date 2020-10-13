@@ -79,7 +79,7 @@ class RestaurantsRecyclerAdapter(val context: Context, private val itemList: Arr
                 val result = addFav.get()
 
                 if(result){
-                    Toast.makeText(context,"Restaurant Added to Favourites",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context,"Restaurant Removed from Favourites",Toast.LENGTH_SHORT).show()
                     holder.resFavIcon.setImageResource(R.drawable.ic_no_fav)
                 }
                 else{
@@ -92,7 +92,7 @@ class RestaurantsRecyclerAdapter(val context: Context, private val itemList: Arr
                 val result = addFav.get()
 
                 if(result){
-                    Toast.makeText(context,"Restaurant Removed to Favourites",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context,"Restaurant Added to Favourites",Toast.LENGTH_SHORT).show()
                     holder.resFavIcon.setImageResource(R.drawable.favourite_menu)
                 }
                 else{
